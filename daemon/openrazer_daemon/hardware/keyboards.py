@@ -872,6 +872,25 @@ class RazerCynosaChroma(_RippleKeyboard):
         "top_img": "https://assets.razerzone.com/eeimages/support/products/1256/1256_cynosa_chroma.png"
     }
 
+class RazerCynosaLite(_RippleKeyboard):
+    """
+    Class for the Razer Cynosa Lite
+    """
+    EVENT_FILE_REGEX = re.compile(r'.*Cynosa_Lite(-if01)?-event-kbd')
+
+    USB_VID = 0x1532
+    USB_PID = 0x023F
+    METHODS = ['get_device_type_keyboard', 'set_static_effect', 'set_spectrum_effect',
+               'set_none_effect', 'set_breath_random_effect', 'set_breath_single_effect', 'set_breath_dual_effect',
+               'get_game_mode', 'set_game_mode']
+
+    DEVICE_IMAGE = "https://www.windowscentral.com/sites/wpcentral.com/files/styles/w830_wm_brw/public/field/image/2020/01/razer-cynosa-lite-review-1.jpg?itok=HDtoNRR2"
+
+    # Deprecated - RAZER_URLS be removed in future.
+    RAZER_URLS = {
+        "top_img": "https://www.windowscentral.com/sites/wpcentral.com/files/styles/w830_wm_brw/public/field/image/2020/01/razer-cynosa-lite-review-1.jpg?itok=HDtoNRR2"
+    }
+
 
 class RazerBlackWidowLite(_RippleKeyboard):
     """
