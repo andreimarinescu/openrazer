@@ -872,6 +872,7 @@ class RazerCynosaChroma(_RippleKeyboard):
         "top_img": "https://assets.razerzone.com/eeimages/support/products/1256/1256_cynosa_chroma.png"
     }
 
+
 class RazerCynosaLite(_RippleKeyboard):
     """
     Class for the Razer Cynosa Lite
