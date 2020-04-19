@@ -885,11 +885,11 @@ class RazerCynosaLite(_RippleKeyboard):
                'set_none_effect', 'set_breath_random_effect', 'set_breath_single_effect', 'set_breath_dual_effect',
                'get_game_mode', 'set_game_mode']
 
-    DEVICE_IMAGE = "https://www.windowscentral.com/sites/wpcentral.com/files/styles/w830_wm_brw/public/field/image/2020/01/razer-cynosa-lite-review-1.jpg?itok=HDtoNRR2"
+    DEVICE_IMAGE = "https://assets.razerzone.com/eeimages/support/products/1256/1256_cynosa_chroma.png"
 
     # Deprecated - RAZER_URLS be removed in future.
     RAZER_URLS = {
-        "top_img": "https://www.windowscentral.com/sites/wpcentral.com/files/styles/w830_wm_brw/public/field/image/2020/01/razer-cynosa-lite-review-1.jpg?itok=HDtoNRR2"
+        "top_img": "https://assets.razerzone.com/eeimages/support/products/1256/1256_cynosa_chroma.png"
     }
 
 
