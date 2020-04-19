@@ -883,7 +883,8 @@ class RazerCynosaLite(_RippleKeyboard):
     USB_PID = 0x023F
     METHODS = ['get_device_type_keyboard', 'set_static_effect', 'set_spectrum_effect',
                'set_none_effect', 'set_breath_random_effect', 'set_breath_single_effect', 'set_breath_dual_effect',
-               'get_game_mode', 'set_game_mode']
+               'get_game_mode', 'set_game_mode', 'get_macro_mode', 'set_macro_mode',
+               'get_macro_effect', 'set_macro_effect', 'get_macros', 'delete_macro', 'add_macro']
 
     DEVICE_IMAGE = "https://assets.razerzone.com/eeimages/support/products/1256/1256_cynosa_chroma.png"
 
